@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "44362149a0e845a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "519df28112567aa0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20cdf09a1dddae15",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Personal/Reading/Books/Index.base",
+                "viewName": "All Books"
+              },
+              "icon": "lucide-table",
+              "title": "Index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "079921c2d146f08c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5a82ab8a37895f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7846bb07bcee880f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6d1cc70b66fca46b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4674675dbefad5e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b14d5ebe704614e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5cfbee9713cad89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30d9df3bec1c1bfa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3048e9dea2549302",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5fdbcbba176bb910",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3611c1103a60ea49",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-book-search-plugin:Create new book note": false
+    }
+  },
+  "active": "20cdf09a1dddae15",
+  "lastOpenFiles": [
+    "Readme.md",
+    "series.png",
+    "main.png",
+    "year.png",
+    "Personal/Years/2025.md",
+    "Personal/Reading/Series/Absolute Swamp Thing by Alan Moore.md",
+    "Personal/Reading/Books/Index.base",
+    "Personal/Reading/Books/To Read/Destruction and Sorrow Beneath the Heavens by László Krasznahorkai Christoph Ransmayr.md",
+    "Templates/Book.md",
+    "Templates/KOReader Highlights.md",
+    "Templates/Boox Note.md",
+    "Templates/Boox JSON highlights.md",
+    "Templates/Boox Minimal.md",
+    "Templates/Book Status.md",
+    "Templates/Book Notes.md",
+    "Templates/Book Collection.md",
+    "Templates/Book About Only.md",
+    "Templates/Book - Add to Series.md"
+  ]
+}
