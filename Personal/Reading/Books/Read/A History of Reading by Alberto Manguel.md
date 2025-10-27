@@ -49,3 +49,5 @@ reading_notes: "[[Personal/Reading/Notes and Highlights/A History of Reading by 
 
 > [!info] About A History of Reading by Alberto Manguel
 ><img src="https://books.google.com/books/content?id=NEDPnQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api" style="float: left; margin-right: 1em;width: 150px; height: auto;" /> This is an intimate study of the art and craft of reading from prehistory to the present. The author meticulously traces the history of reading from the earliest examples of the clay tablets to today's digital revolution.
+
+

@@ -1,6 +1,6 @@
 ---
 created: 2025-10-15T19:07:38+06:00
-updated: 2025-10-15T22:39:29+06:00
+updated: 2025-10-27T17:15:52+06:00
 ---
 # Book Base
 
@@ -9,6 +9,9 @@ This is a vault comprising my reading management flow.
 ![](./main.png)
 ![](./series.png)
 ![](./year.png)
+
+Reading log on sidebar:
+![[reading-log.png]]
 ## Plugins
 ### Linter
 This is the plugin I use to maintain timestamps as metadata in the file. On save, the linter will update the `created` and `updated` timestamps in proper format. To achieve that, you have to set the following options:
@@ -33,6 +36,8 @@ For many of the templating needs.
 ### Book Search
 To fill in book notes easily. Set `Templates/Book.md` as the template and `Personal/Reading/Books/To Read` as the default destinations
 
+### Book Search
+To show nicely rendered reading log on sidebar for books
 ## Structure
 
 ```

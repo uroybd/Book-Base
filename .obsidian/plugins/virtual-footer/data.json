@@ -1,0 +1,21 @@
+{
+  "rules": [
+    {
+      "name": "Book Log",
+      "enabled": true,
+      "type": "folder",
+      "contentSource": "file",
+      "footerText": "```dataviewjs\nconst BOOK_LOG_STYLES = {\n      \"To Read\": {\n        style: {\n          color: \"var(--color-yellow)\",\n          fontWeight: \"bold\"\n        },\n        icon: \"lucide-book-plus\"\n      },\n      \"In Progress\": {\n        style: {\n          color: \"var(--color-blue)\",\n          fontWeight: \"bold\"\n        },\n        icon: \"lucide-book-open\"\n      },\n      \"Read\": {\n        style: {\n          color: \"var(--color-green)\",\n          fontWeight: \"bold\"\n        },\n        icon: \"lucide-book-check\"\n      },\n      \"Abandoned\": {\n        style: {\n          color: \"var(--color-red)\",\n          fontWeight: \"bold\"\n        },\n        icon: \"lucide-book-x\"\n      }\n    }\nconst current = dv.current()\ndv.el(\"h3\", \"Reading Log\");\n    current.log.forEach((l, idx) => {\n      let styles = this.BOOK_LOG_STYLES[l.status]\n      dv.paragraph(`<span class=\"icon\"></span> <span class=\"status\">${l.status}</span> <small><i>${dv.date(l.timestamp).toFormat(\"dd MMM yyyy\")}</i></small>`, {attr: {id: `rlog-${idx}`}});\n      let iconEl = dv.container.querySelector(`#rlog-${idx} .icon`)\n      let statusEl = dv.container.querySelector(`#rlog-${idx} .status`)\n      obsidian.setIcon(iconEl, styles[\"icon\"], 16)\n      Object.keys(styles.style).forEach((key) => {\n        statusEl.style[key] = styles.style[key]\n      });\n    });\n  }\n```",
+      "renderLocation": "sidebar",
+      "showInPopover": true,
+      "showInSeparateTab": false,
+      "sidebarTabName": "",
+      "footerFilePath": "Utilites/VirtualContent/Book Log.md",
+      "path": "Personal/Reading/Books/",
+      "recursive": true
+    }
+  ],
+  "refreshOnFileOpen": false,
+  "renderInSourceMode": false,
+  "refreshOnMetadataChange": false
+}

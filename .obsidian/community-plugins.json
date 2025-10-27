@@ -1,5 +1,7 @@
 [
   "templater-obsidian",
   "obsidian-linter",
-  "obsidian-book-search-plugin"
+  "obsidian-book-search-plugin",
+  "virtual-footer",
+  "dataview"
 ]

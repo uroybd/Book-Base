@@ -11,13 +11,14 @@
             "id": "20cdf09a1dddae15",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Personal/Reading/Books/Index.base",
-                "viewName": "All Books"
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Index"
+              "icon": "lucide-file",
+              "title": "Readme"
             }
           }
         ]
@@ -93,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Readme"
             }
           },
           {
@@ -148,11 +150,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "2ddaeac2f125497b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f01ee96d739c5b0",
+            "type": "leaf",
+            "state": {
+              "type": "virtual-content-view",
+              "state": {},
+              "icon": "text-select",
+              "title": "Virtual Content"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,28 +181,43 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
-      "obsidian-book-search-plugin:Create new book note": false
+      "obsidian-book-search-plugin:Create new book note": false,
+      "virtual-footer:Open virtual content in sidebar": false
     }
   },
-  "active": "20cdf09a1dddae15",
+  "active": "7846bb07bcee880f",
   "lastOpenFiles": [
+    "reading-log.png",
+    "Personal/Reading/Books/Read/Absolute Swamp Thing by Alan Moore Vol 1 by Alan Moore.md",
+    "Personal/Reading/Books/Read/Absolute Swamp Thing by Alan Moore Vol 2 by Alan Moore.md",
     "Readme.md",
+    "Personal/Reading/Books/Read/Fireflies by Luis Sagasti.md",
+    "Personal/Reading/Books/Read/Exhalation by Ted Chiang.md",
+    "Personal/Reading/Books/Read/Being and Time by Martin Heidegger.md",
+    "Personal/Reading/Books/Read/Bardín the Superrealist by Max Bardin.md",
+    "Personal/Reading/Books/Read/Antigone by Sophocles.md",
+    "Personal/Reading/Books/Read/Animal Farm by George Orwell.md",
+    "Personal/Reading/Books/Read/Admiring Silence by Abdulrazak Gurnah.md",
+    "Personal/Reading/Books/Read/A Short History of Drunkenness by Mark Forsyth.md",
+    "Personal/Reading/Books/Read/A Pale View of Hills by Kazuo Ishiguro.md",
+    "Personal/Reading/Books/Read/A Little Larger Than the Entire Universe by Fernando Pessoa.md",
+    "Personal/Reading/Books/Read/A History of Western Philosophy by Bertrand Russell.md",
+    "Personal/Reading/Books/Read/A History of Reading by Alberto Manguel.md",
+    "Personal/Reading/Books/In Progress/Shadows of Forgotten Ancestors by Carl Sagan Ann Druyan.md",
+    "Personal/Reading/Books/In Progress/Classical Music The 50 Greatest Composers and Their 1,000 Greatest Works by Phil G. Goulding.md",
+    "Personal/Reading/Books/Index.base",
+    "Personal/Reading/Books/Abandoned/On Progress in Physics and Subjectivity Theory.md",
+    "Personal/Reading/Books/In Progress/The Brothers Karamazov by Fyodor Dostoevsky.md",
+    "Utilites/VirtualContent/Book Log.md",
+    "Utilites/VirtualContent",
+    "Utilites",
+    "Personal/Reading/Notes and Highlights/A Short Account of the Destruction of the Indies.md",
+    "Personal/Reading/Notes and Highlights/Against Interpretation and Other Essays by Susan S.md",
+    "Personal/Reading/Books/Read/House of Leaves by Mark Z Danielewski.md",
     "series.png",
     "main.png",
     "year.png",
     "Personal/Years/2025.md",
-    "Personal/Reading/Series/Absolute Swamp Thing by Alan Moore.md",
-    "Personal/Reading/Books/Index.base",
-    "Personal/Reading/Books/To Read/Destruction and Sorrow Beneath the Heavens by László Krasznahorkai Christoph Ransmayr.md",
-    "Templates/Book.md",
-    "Templates/KOReader Highlights.md",
-    "Templates/Boox Note.md",
-    "Templates/Boox JSON highlights.md",
-    "Templates/Boox Minimal.md",
-    "Templates/Book Status.md",
-    "Templates/Book Notes.md",
-    "Templates/Book Collection.md",
-    "Templates/Book About Only.md",
-    "Templates/Book - Add to Series.md"
+    "Personal/Reading/Series/Absolute Swamp Thing by Alan Moore.md"
   ]
 }
