@@ -1,6 +1,6 @@
 ---
 created: 2025-10-15T19:07:38+06:00
-updated: 2025-10-27T17:26:24+06:00
+updated: 2025-10-27T17:30:28+06:00
 ---
 # Book Base
 
@@ -36,8 +36,8 @@ For many of the templating needs.
 ### Book Search
 To fill in book notes easily. Set `Templates/Book.md` as the template and `Personal/Reading/Books/To Read` as the default destinations
 
-### Book Search
-To show nicely rendered reading log on sidebar for books
+### Virtual Content
+To show a nicely rendered reading log on the sidebar for books
 ## Structure
 
 ```
